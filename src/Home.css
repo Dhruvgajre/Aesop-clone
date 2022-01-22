@@ -1,0 +1,83 @@
+.home__banner {
+  z-index: -1;
+  width: 100%;
+  display: block;
+  height: auto;
+  max-height: 500px;
+}
+
+.home__logo {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  width: 150px;
+  position: relative;
+  top: -390px;
+  left: -650px;
+}
+
+.home__header_text {
+  position: absolute;
+  top: 170px;
+}
+
+.header__intro {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+
+  font-size: 16px;
+  margin-left: 280px;
+}
+
+.header__intro h1 {
+  font-family: "Suisse Regular", sans-serif;
+  font-weight: 200;
+}
+.browse__Option {
+  border: 1px solid white;
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 20px;
+  height: 40px;
+  width: 250px;
+  margin-left: 280px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.browse__link :hover {
+  background-color: white;
+  color: black;
+}
+
+.arrow {
+  float: right;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+.browse__link {
+  text-decoration: none;
+  color: white;
+}
+
+.product__row {
+  position: relative;
+  top: -52px;
+  background-color: #fffef2;
+  display: flex;
+  padding-left: 120px;
+  padding-top: 150px;
+}
+
+.product__row2 {
+  position: relative;
+  top: -350px;
+  background-color: #fffef2;
+  display: flex;
+  padding-left: 120px;
+  padding-top: 150px;
+}
