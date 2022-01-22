@@ -1,0 +1,51 @@
+.header__navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  height: 78px;
+  max-height: auto;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.navbar__Container {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  background-color: #333333;
+}
+.navbar__Option {
+  float: left;
+  color: white;
+  margin-top: 30px;
+  margin-right: 12px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: Suisse Regular, sans-serif;
+  font-weight: 500;
+  background-color: #333333;
+}
+
+.searchIcon {
+  float: left;
+  margin-top: 27px;
+  height: 20px;
+  color: white;
+  position: relative;
+  margin-left: 7px;
+  background-color: #333333;
+}
+
+.navbar__Option2 {
+  float: right;
+  color: white;
+  background-color: #333333;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-family: Suisse Regular, sans-serif;
+  font-weight: 500;
+}
